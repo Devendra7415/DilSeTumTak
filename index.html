@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dil Se Tum Tak ❤️</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3, #c471ed);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: 430px;
+    padding: 30px 22px;
+    background: rgba(255,255,255,0.17);
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 25px;
+    box-shadow: 0 10px 35px rgba(80,0,40,0.2);
+    backdrop-filter: blur(10px);
+}
+
+.heart {
+    font-size: 65px;
+    animation: beat 1s infinite;
+}
+
+@keyframes beat {
+    50% { transform: scale(1.15); }
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+button {
+    border: none;
+    border-radius: 25px;
+    padding: 13px 22px;
+    margin-top: 12px;
+    background: white;
+    color: #e84375;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#message {
+    display: none;
+    margin-top: 22px;
+    padding: 15px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 15px;
+}
+
+footer {
+    margin-top: 25px;
+    font-size: 13px;
+}
+</style>
+</head>
+
+<body>
+<div class="card">
+
+    <div class="heart">❤️</div>
+
+    <h1>Hey, My Favourite Person! 💖</h1>
+
+    <p>
+        Meri life mein aane ke liye thank you. 🥹<br>
+        Tumhari smile mere din ko special bana deti hai.
+        <br><br>
+        Tum mere liye bahut special ho,
+        aur main chahta hoon ki tum hamesha khush raho. 🌸
+    </p>
+
+    <button onclick="showLove()">Ek baat sunogi? 💌</button>
+
+    <div id="message">
+        <h2>I Love You! ❤️</h2>
+        <p>
+            Chahe din achha ho ya bura,
+            tumhari ek smile sab kuch special bana deti hai. 🫶
+            <br><br>
+            You are someone truly special to me. 💗
+        </p>
+        <div style="font-size:35px">💖 🫶 💖</div>
+    </div>
+
+    <footer>Made with ❤️ just for you</footer>
+
+</div>
+
+<script>
+function showLove() {
+    document.getElementById("message").style.display = "block";
+}
+</script>
+
+</body>
+</html>
